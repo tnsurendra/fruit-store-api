@@ -1,0 +1,159 @@
+
+
+{
+"id": "a34ef851-761f-0662-d989-dc86704b6c0e",
+"name": "Fruits",
+"description": "",
+"order": [
+"d5627435-05e3-d467-6f12-b99fc739ea0d",
+"58f3fce9-a691-2030-0a6b-db130a93293a",
+"f91ad2a9-2ce8-b286-917e-3e8dd8097af0",
+"e33d7974-1f91-5dc0-4c4f-82106e685d72"
+],
+"folders": [],
+"folders_order": [],
+"timestamp": 1536555103655,
+"owner": 0,
+"public": false,
+"requests": [
+{
+"id": "58f3fce9-a691-2030-0a6b-db130a93293a",
+"headers": "Accept: application/json\nContent-Type: application/json\n",
+"headerData": [
+{
+"key": "Accept",
+"value": "application/json",
+"description": "",
+"enabled": true
+},
+{
+"key": "Content-Type",
+"value": "application/json",
+"description": "",
+"enabled": true
+}
+],
+"url": "http://localhost:8080/fruitstore/getFruit/Hybrid Pomegranate/1",
+"queryParams": [],
+"preRequestScript": null,
+"pathVariables": {},
+"pathVariableData": [],
+"method": "GET",
+"data": null,
+"dataMode": "params",
+"tests": null,
+"currentHelper": "normal",
+"helperAttributes": {},
+"time": 1536560640456,
+"name": "GetAll Fruits with Quantity",
+"description": "",
+"collectionId": "a34ef851-761f-0662-d989-dc86704b6c0e",
+"responses": []
+},
+{
+"id": "d5627435-05e3-d467-6f12-b99fc739ea0d",
+"headers": "Accept: application/json\nContent-Type: application/json\n",
+"headerData": [
+{
+"key": "Accept",
+"value": "application/json",
+"description": "",
+"enabled": true
+},
+{
+"key": "Content-Type",
+"value": "application/json",
+"description": "",
+"enabled": true
+}
+],
+"url": "http://localhost:8080/fruitstore/getAllFruits",
+"queryParams": [],
+"preRequestScript": null,
+"pathVariables": {},
+"pathVariableData": [],
+"method": "GET",
+"data": null,
+"dataMode": "params",
+"tests": null,
+"currentHelper": "normal",
+"helperAttributes": {},
+"time": 1536560643263,
+"name": "GetAll Fruits",
+"description": "",
+"collectionId": "a34ef851-761f-0662-d989-dc86704b6c0e",
+"responses": []
+},
+{
+"id": "e33d7974-1f91-5dc0-4c4f-82106e685d72",
+"headers": "Accept: application/json\nContent-Type: application/json\n",
+"headerData": [
+{
+"key": "Accept",
+"value": "application/json",
+"description": "",
+"enabled": true
+},
+{
+"key": "Content-Type",
+"value": "application/json",
+"description": "",
+"enabled": true
+}
+],
+"url": "http://localhost:8080/fruitstore/updateFruit",
+"queryParams": [],
+"preRequestScript": null,
+"pathVariables": {},
+"pathVariableData": [],
+"method": "PUT",
+"data": [],
+"dataMode": "raw",
+"tests": null,
+"currentHelper": "normal",
+"helperAttributes": {},
+"time": 1536560647679,
+"name": "Update existing fruit",
+"description": "",
+"collectionId": "a34ef851-761f-0662-d989-dc86704b6c0e",
+"responses": [],
+"rawModeData": "{\"id\":\"1\",\"name\":\"Earlygold\", \"type\":\"Mango\" ,\"price\":\"27\",\"availableStock\":\"29\"}"
+},
+{
+"id": "f91ad2a9-2ce8-b286-917e-3e8dd8097af0",
+"headers": "Accept: application/json\nContent-Type: application/json\n",
+"headerData": [
+{
+"key": "Accept",
+"value": "application/json",
+"description": "",
+"enabled": true
+},
+{
+"key": "Content-Type",
+"value": "application/json",
+"description": "",
+"enabled": true
+}
+],
+"url": "http://localhost:8080/fruitstore/storeFruit",
+"queryParams": [],
+"preRequestScript": null,
+"pathVariables": {},
+"pathVariableData": [],
+"method": "POST",
+"data": [],
+"dataMode": "raw",
+"tests": null,
+"currentHelper": "normal",
+"helperAttributes": {},
+"time": 1536560645559,
+"name": "Store a new fruit",
+"description": "",
+"collectionId": "a34ef851-761f-0662-d989-dc86704b6c0e",
+"responses": [],
+"rawModeData": "{ \"name\":\"Earlygold\", \"type\":\"Mango\" ,\"price\":\"27\",\"availableStock\":\"29\"}"
+}
+]
+}
+
